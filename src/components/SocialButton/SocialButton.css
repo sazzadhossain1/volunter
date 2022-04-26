@@ -1,0 +1,24 @@
+.parent-line{
+    display: flex;
+    align-items: center;
+    margin-left: 65px;
+}
+
+.line{
+    width: 150px;
+    border: 1px solid ;
+    height: 1px;
+    
+}
+
+.or{
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.google-button{
+    height: 50px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+}

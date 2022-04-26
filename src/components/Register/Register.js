@@ -4,6 +4,7 @@ import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 
 import "./Register.css";
 import auth from "../../firebase.init";
+import SocialButton from "../SocialButton/SocialButton";
 
 const Register = () => {
     const [email, setEmail] = useState('');
@@ -78,7 +79,9 @@ const Register = () => {
         Already have an Account?
           <Link to="/login">Please Login</Link>
         </p>
+        
       </div>
+      <SocialButton></SocialButton>
     </div>
   );
 };
