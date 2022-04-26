@@ -1,0 +1,20 @@
+.allService-container{
+background-color: chartreuse;
+width: 300px;
+margin: auto;
+border-radius: 10px;
+    
+}
+
+.allService-container img{
+    width: 300px;
+    
+
+}
+.p-container{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 20px;
+    
+}
